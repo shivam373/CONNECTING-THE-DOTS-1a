@@ -1,0 +1,270 @@
+{
+  "title": "ADOBE HACKATHON INDIA",
+  "outline": [
+    {
+      "level": "H1",
+      "text": "CONECTING THE DOTS...",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "ROUND",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "Submision Date:",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "July 28, 2025",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "Welcome to the “Conecting the Dots” Chalenge",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "Rethink Reading. Rediscover Knowledge",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "The Journey Ahead",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "Round 1:",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "Round 2:",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "Why This Maters",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "Are you in?",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "Round 1A: Understand Your Document",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "Chalenge Theme: Conecting the Dots Through Docs",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "Your Mision",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "Why This Maters",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "What You Ned to Build",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "Title",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "You Wil Be Provided",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "Docker Requirements",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "Expected Execution",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "Constraints",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "Constraint Requirement",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "No internet aces",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "alowed",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "Scoring Criteria",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "Max",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "Criteria",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "Points",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "Bonus: Multilingual Handling (e.g.,",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "Japanese)",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "Total",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "Submision Checklist",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "Pro Tips",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "What Not to Do",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "[[Public Dataset Folder]]",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "(For Sample Input and Output Files, please refer to the apendix)",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "Round 1B: Persona-Driven Document Inteligence",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "Theme: “Conect What Maters — For the User Who Maters”",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "Chalenge Brief (For Participants)",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "Input Specification",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "Sample Test Cases",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "Test Case 1: Academic Research",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "Test Case 2: Busines Analysis",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "Test Case 3: Educational Content",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "Required Output",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "Deliverables",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "Scoring Criteria",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "Max",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "Criteria",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "Points",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "Description",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "Apendix:",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "htps://github.com/jhaj08/Adobe-India- Hackathon25.git",
+      "page": 10
+    }
+  ]
+}
