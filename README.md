@@ -47,8 +47,6 @@ This project extracts **titles** and **headings** from PDF documents using a hyb
 
 **Note:** All dependencies and models are automatically installed within the Docker container during the build process. No additional downloads or setup required.
 
-## How to Build and Run
-
 ### Build the Docker Image
 ```
 docker build --platform linux/amd64 -t adobe_pdf_extractor:latest .
