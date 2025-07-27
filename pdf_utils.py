@@ -16,8 +16,8 @@ if platform.system() == "Windows":
 else:
     poppler_path = None  # Let pdf2image find poppler automatically
 
-INPUT_DIR = "input"
-OUTPUT_DIR = "output"
+# INPUT_DIR = "input"
+# OUTPUT_DIR = "output"
 
 # --- Utility Functions ---
 def is_bold(font_name):
@@ -309,21 +309,21 @@ def extract_headings(pdf_path, poppler_path=poppler_path):
     return result
 
 
-def process_pdf_dir(input_dir=INPUT_DIR, output_dir=OUTPUT_DIR):
-    os.makedirs(output_dir, exist_ok=True)
-    for filename in os.listdir(input_dir):
-        if filename.lower().endswith(".pdf"):
-            input_path = os.path.join(input_dir, filename)
-            base_name = os.path.splitext(filename)[0]
-            output_path = os.path.join(output_dir, f"{base_name}.json")
-            print(f"Processing: {filename}")
-            result = extract_headings(input_path)
-            with open(output_path, "w", encoding="utf-8") as f:
-                json.dump(result, f, indent=2, ensure_ascii=False)
+# def process_pdf_dir(input_dir=INPUT_DIR, output_dir=OUTPUT_DIR):
+#     os.makedirs(output_dir, exist_ok=True)
+#     for filename in os.listdir(input_dir):
+#         if filename.lower().endswith(".pdf"):
+#             input_path = os.path.join(input_dir, filename)
+#             base_name = os.path.splitext(filename)[0]
+#             output_path = os.path.join(output_dir, f"{base_name}.json")
+#             print(f"Processing: {filename}")
+#             result = extract_headings(input_path)
+#             with open(output_path, "w", encoding="utf-8") as f:
+#                 json.dump(result, f, indent=2, ensure_ascii=False)
 
-def main():
-    process_pdf_dir()
+# def main():
+#     process_pdf_dir()
 
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()
 

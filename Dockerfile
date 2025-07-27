@@ -22,4 +22,4 @@ COPY . .
 ENV TESSDATA_PREFIX=/usr/share/tesseract-ocr/5/tessdata
 
 # Entrypoint: process all PDFs from /app/input to /app/output
-ENTRYPOINT ["python", "adobe_1a_solution.py"] 
+ENTRYPOINT ["python", "run_heading_extractor.py"] 
