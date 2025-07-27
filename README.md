@@ -1,6 +1,6 @@
 # PDF Title & Heading Extraction Solution
 
-This project extracts **titles** and **headings** from PDF documents using a hybrid approach that combines font-based analysis (via `pdfplumber`) and OCR-based fallback (via `Tesseract`) for image-based PDFs or scanned documents.
+This project extracts **titles** and **headings** from PDF documents using a hybrid approach that combines font-based analysis (via `pdfplumber`) and OCR-based fallback (via `Tesseract`) for image-based PDFs or scanned documents. It also handles multilingual PDFs now with great accuracy but It works well.
 
 ---
 
@@ -46,8 +46,6 @@ This project extracts **titles** and **headings** from PDF documents using a hyb
 
 
 **Note:** All dependencies and models are automatically installed within the Docker container during the build process. No additional downloads or setup required.
-
-## How to Build and Run
 
 ### Build the Docker Image
 ```
