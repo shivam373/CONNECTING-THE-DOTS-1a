@@ -1,12 +1,9 @@
-import os
-import json
 import pdfplumber
 from collections import defaultdict
 import re
 from pdf2image import convert_from_path
-from PIL import Image
 import pytesseract
-import platform  # ✅ for OS check
+import platform  # for OS check
 
 # --- Path Setup ---
 # Use Tesseract and Poppler only on Windows; Linux/Docker uses system installations
@@ -16,8 +13,6 @@ if platform.system() == "Windows":
 else:
     poppler_path = None  # Let pdf2image find poppler automatically
 
-# INPUT_DIR = "input"
-# OUTPUT_DIR = "output"
 
 # --- Utility Functions ---
 def is_bold(font_name):
@@ -252,7 +247,7 @@ def extract_headings(pdf_path, poppler_path=poppler_path):
     if len(regular_headings) > len(page_heading_map) + 10:
         for page in page_heading_map:
             page_heading_map[page] = [h for h in page_heading_map[page]
-                                      if h["style"] != "regular" or h["font_size"] > 15]
+            if h["style"] != "regular" or h["font_size"] > 15]
 
     # Title extraction from first page
     first_page_lines = page_heading_map.get(1, [])
@@ -292,6 +287,8 @@ def extract_headings(pdf_path, poppler_path=poppler_path):
                     level = "H2"
                 elif line["font_size"] >= 80:
                     level = "H3"
+                elif line["font_size"] <= 30:
+                    continue
             else:
                 # For embedded text
                 if line["font_size"] >= 16:
@@ -309,21 +306,5 @@ def extract_headings(pdf_path, poppler_path=poppler_path):
     return result
 
 
-# def process_pdf_dir(input_dir=INPUT_DIR, output_dir=OUTPUT_DIR):
-#     os.makedirs(output_dir, exist_ok=True)
-#     for filename in os.listdir(input_dir):
-#         if filename.lower().endswith(".pdf"):
-#             input_path = os.path.join(input_dir, filename)
-#             base_name = os.path.splitext(filename)[0]
-#             output_path = os.path.join(output_dir, f"{base_name}.json")
-#             print(f"Processing: {filename}")
-#             result = extract_headings(input_path)
-#             with open(output_path, "w", encoding="utf-8") as f:
-#                 json.dump(result, f, indent=2, ensure_ascii=False)
 
-# def main():
-#     process_pdf_dir()
-
-# if __name__ == "__main__":
-#     main()
 
