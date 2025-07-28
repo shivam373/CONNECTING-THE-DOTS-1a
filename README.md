@@ -1,4 +1,4 @@
-# PDF Title & Heading Extraction Solution
+# CONNECTING THE DOTS... 1a
 
 This project extracts **titles** and **headings** from PDF documents using a hybrid approach that combines font-based analysis (via `pdfplumber`) and OCR-based fallback (via `Tesseract`) for image-based PDFs or scanned documents. It also handles multilingual PDFs well.
 
