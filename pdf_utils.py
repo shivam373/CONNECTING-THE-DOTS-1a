@@ -281,13 +281,13 @@ def extract_headings(pdf_path, poppler_path=poppler_path):
             level = "H4"  # Default level
             if line.get("source") == "ocr":
                 # For OCR: headings tend to have larger font sizes
-                if line["font_size"] >= 130:
+                if line["font_size"] >= 80:
                     level = "H1"
-                elif line["font_size"] >= 100:
+                elif line["font_size"] >= 60:
                     level = "H2"
-                elif line["font_size"] >= 80:
+                elif line["font_size"] >= 40:
                     level = "H3"
-                elif line["font_size"] <= 30:
+                elif line["font_size"] <= 25:
                     continue
             else:
                 # For embedded text
